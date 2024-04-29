@@ -26,3 +26,5 @@ I have tried to add the following to the `.gitignore` file:
 /backend/*
 !/backend/.env
 /frontend/*
+
+/node_modules
