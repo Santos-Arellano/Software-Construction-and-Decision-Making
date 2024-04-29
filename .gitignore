@@ -1,4 +1,28 @@
 node_modules/.cache/pnpm
 .env
 
+/backend/node_modules
+/frontend/node_modules
 
+
+## Backend
+/backend/node_modules
+/backend/.env
+
+## Frontend
+/frontend/node_modules
+/frontend/.env
+```
+I have tried to add the following to the `.gitignore` file:
+```
+# Ignore everything in the root except the "backend" and "frontend" directories
+/*
+!.gitignore
+!/.gitignore
+!/backend
+!/frontend
+
+# Ignore everything in the "backend" and "frontend" directories except the ".env" file
+/backend/*
+!/backend/.env
+/frontend/*

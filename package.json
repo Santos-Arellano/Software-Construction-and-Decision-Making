@@ -1,18 +1,5 @@
 {
-  "name": "software-construction-and-decision-making",
-  "version": "1.0.0",
-  "description": "Inicializar proyecto, \"NPM INIT\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "ai": "^3.0.32",
-    "dotenv": "^16.4.5",
-    "openai": "^4.38.2",
-    "openai-edge": "^1.2.2"
+    "express": "^4.19.2"
   }
 }
